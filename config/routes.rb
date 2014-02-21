@@ -3,5 +3,5 @@ Voter::Application.routes.draw do
   resources :users
   resources :votes
 
-  root 'users#new'
+  root 'votes#index'
 end
